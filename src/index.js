@@ -9,7 +9,7 @@ import 'tachyons'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-      <Hello greeting={'Hello React Ninja...'} />
+      <Hello greeting={'Hello React Ninja'} />
       {/* <App /> */}
     </div>
 );
