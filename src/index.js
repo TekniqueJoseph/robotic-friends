@@ -5,7 +5,6 @@ import Hello from './Hello';
 import 'tachyons'
 // import App from './App';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
