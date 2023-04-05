@@ -3,7 +3,6 @@ import Card from "./Card";
 // import { robots } from "./robots";
 
 const CardList = ({robots}) => {
-    
     return (
         <div>
             {
@@ -15,7 +14,7 @@ const CardList = ({robots}) => {
                         name={robots[i].name} 
                         email={robots[i].email}
                     />
-                   );
+                    );
                 })
             }
         </div> 
